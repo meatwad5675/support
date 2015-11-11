@@ -1,4 +1,11 @@
 <?php
+
+if (!current_user_can('edit_theme_options')) {
+	header('HTTP/1.1 302 Moved Temporarily');
+	header('Location: https://www.prophoto.com/support/');
+	exit();
+}
+
 /**
  * The template for displaying the header
  *
