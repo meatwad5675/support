@@ -33,6 +33,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  * 11.0 - Widgets
  * 12.0 - Content
  *    12.1 - Posts and pages
+ *        12.1.1 - Child page lists
+ *        12.1.2 - Accordions
  *    12.2 - Post Formats
  *    12.3 - Comments
  * 13.0 - Footer
@@ -2092,6 +2094,66 @@ a.post-thumbnail:focus {
 	margin-bottom: 0;
 }
 
+.list-pages-shortcode li {
+    list-style: none;
+}
+ 
+.page_item a {
+    border-bottom: none;
+}
+ 
+/**
+ * 12.1.1 Child Page Lists
+ */
+ 
+.page_item {
+    background-color: #317FC2;
+    padding-left: 0.4em;
+    margin-bottom: 1.0em;
+}
+ 
+.page_item a {
+    color: #FFF;
+    border-bottom: none;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+ 
+.page_item a:hover {
+    color: #FB7D02;
+    text-decoration: underline;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+}
+ 
+.children .page_item {
+    margin-bottom: 0.25em;
+}
+ 
+.list-pages-shortcode .children li:last-child {
+    padding-bottom: 0.5em;
+}
+ 
+/**
+ * 12.1.2 Accordions
+ */
+ 
+.accordion-title {
+    background-color: #c8c8c8;
+    border-top: double 0.25em #FB7D02;
+    padding: 0.5em;
+    margin: 1em 0 0.5em 0 !important;
+    text-indent: -2em;
+}
+ 
+.accordion-title:before {
+    bottom: -0.25em;
+    content: "\f139 ";
+    font-family: dashicons;
+    font-size: 1.5em;
+    margin-right: 0.25em;
+    position: relative;
+}
 
 /**
  * 12.2 Post Formats
