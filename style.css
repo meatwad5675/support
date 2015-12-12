@@ -2155,6 +2155,15 @@ a.post-thumbnail:focus {
     position: relative;
 }
 
+/*
+ * 12.1.3 Media players
+ */
+ 
+.wp-video .mejs-overlay-button {
+    -webkit-filter: brightness(35%);
+    filter: brightness(35%);
+}
+
 /**
  * 12.2 Post Formats
  */
