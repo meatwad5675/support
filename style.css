@@ -2175,25 +2175,11 @@ a.post-thumbnail:focus {
 }
 
 .blurb-content.info {
-	background-color: lightblue;
-	border-color: blue;
+	background-color: #9AC6ED;
+	border-color: #9AC6ED;
 }
 
 .blurb-content.info:before {
-	content: "\f339";
-	font-family: "dashicons";
-    font-size: 3em;
-    line-height: 0;
-    position: relative;
-    top: 1.1em;
-}
-
-.blurb-content.notice {
-	background-color: lightyellow;
-	border-color: yellow;
-}
-
-.blurb-content.notice:before {
 	content: "\f348";
 	font-family: "dashicons";
     font-size: 3em;
@@ -2202,13 +2188,27 @@ a.post-thumbnail:focus {
     top: 1.1em;
 }
 
+.blurb-content.notice {
+	background-color: #EDD5BD;
+	border-color: #FB7D02;
+}
+
+.blurb-content.notice:before {
+	content: "\f534";
+	font-family: "dashicons";
+    font-size: 3em;
+    line-height: 0;
+    position: relative;
+    top: 1.1em;
+}
+
 .blurb-content.warning {
-	background-color: rgba(255,0,0,0.3);
-	border-color: red;
+	background-color: #ED9A9A;
+	border-color: #dc3232;
 }
 
 .blurb-content.warning:before {
-	content: "\f534";
+	content: "\f153";
 	font-family: "dashicons";
     font-size: 3em;
     line-height: 0;
