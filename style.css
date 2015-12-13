@@ -2180,6 +2180,7 @@ a.post-thumbnail:focus {
 }
 
 .blurb-content.info:before {
+	color: #FB7D02;
 	content: "\f348";
 	font-family: "dashicons";
     font-size: 3em;
@@ -2194,6 +2195,7 @@ a.post-thumbnail:focus {
 }
 
 .blurb-content.notice:before {
+	color: #FB7D02;
 	content: "\f534";
 	font-family: "dashicons";
     font-size: 3em;
@@ -2208,6 +2210,7 @@ a.post-thumbnail:focus {
 }
 
 .blurb-content.warning:before {
+	color: #dc3232;
 	content: "\f153";
 	font-family: "dashicons";
     font-size: 3em;
