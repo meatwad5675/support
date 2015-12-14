@@ -35,6 +35,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
  *    12.1 - Posts and pages
  *        12.1.1 - Child page lists
  *        12.1.2 - Accordions
+ *        12.1.3 - Media Players
+ *        12.1.4 - Blurbs
  *    12.2 - Post Formats
  *    12.3 - Comments
  * 13.0 - Footer
@@ -2159,6 +2161,64 @@ a.post-thumbnail:focus {
     -webkit-filter: brightness(35%);
     filter: brightness(35%);
 }
+
+/**
+ * 12.1.4 Blurbs
+ */
+ 
+.blurb-content {
+    border: solid 1px;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    padding-left: 3em;
+    text-indent: -3em;
+}
+
+.blurb-content.info {
+	background-color: #9AC6ED;
+	border-color: #9AC6ED;
+}
+
+.blurb-content.info:before {
+	color: #FB7D02;
+	content: "\f348";
+	font-family: "dashicons";
+    font-size: 3em;
+    line-height: 0;
+    position: relative;
+    top: 1.1em;
+}
+
+.blurb-content.notice {
+	background-color: #EDD5BD;
+	border-color: #FB7D02;
+}
+
+.blurb-content.notice:before {
+	color: #FB7D02;
+	content: "\f534";
+	font-family: "dashicons";
+    font-size: 3em;
+    line-height: 0;
+    position: relative;
+    top: 1.1em;
+}
+
+.blurb-content.warning {
+	background-color: #ED9A9A;
+	border-color: #dc3232;
+}
+
+.blurb-content.warning:before {
+	color: #dc3232;
+	content: "\f153";
+	font-family: "dashicons";
+    font-size: 3em;
+    line-height: 0;
+    position: relative;
+    top: 1.1em;
+}
+
 
 /**
  * 12.2 Post Formats
