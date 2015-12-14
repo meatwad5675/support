@@ -2093,19 +2093,15 @@ a.post-thumbnail:focus {
 .entry-caption > :last-child {
 	margin-bottom: 0;
 }
-
-.list-pages-shortcode li {
-    list-style: none;
-}
- 
-.page_item a {
-    border-bottom: none;
-}
  
 /**
  * 12.1.1 Child Page Lists
  */
  
+.list-pages-shortcode li {
+    list-style: none;
+}
+
 .page_item {
     background-color: #317FC2;
     padding-left: 0.4em;
@@ -2126,12 +2122,12 @@ a.post-thumbnail:focus {
     -webkit-transition: all 0.25s;
 }
  
-.children .page_item {
-    margin-bottom: 0.25em;
-}
- 
 .list-pages-shortcode .children li:last-child {
     padding-bottom: 0.5em;
+}
+
+.children .page_item {
+    margin-bottom: 0.25em;
 }
  
 /**
@@ -2526,6 +2522,11 @@ p > video {
 	font-size: 1.5rem;
 	margin-top: 0;
 	margin-bottom: 1.6em;
+}
+
+.wp-video {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wp-playlist.wp-playlist {
