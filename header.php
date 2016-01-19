@@ -20,7 +20,7 @@ if (!current_user_can('edit_theme_options')) {
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
-	<base href="<?php echo get_site_url(); ?>" target="_blank">
+	<base href="<?php echo get_site_url(); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
@@ -38,9 +38,9 @@ if (!current_user_can('edit_theme_options')) {
 			<div class="site-branding">
 				<?php
 					if ( is_front_page() && is_home() ) : ?>
-						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><b>Pro</b>Photo</a></h1>
 					<?php else : ?>
-						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><b>Pro</b>Photo</a></p>
 					<?php endif;
 
 					$description = get_bloginfo( 'description', 'display' );
